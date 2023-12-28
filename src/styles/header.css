@@ -1,0 +1,15 @@
+.header__section {
+    display: flex;
+    justify-content: center;
+}
+
+.header__container {
+    padding: 3rem;
+}
+
+.header__text {
+    color: var(--teal-green);
+    font-family: var(--font-maven-pro);
+    font-weight: 500;
+    margin: 0;
+}
