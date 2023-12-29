@@ -62,3 +62,16 @@
     transform: translate(-50%, -50%);
     z-index: 2;
 }
+
+.subheader--ruler__container {
+    display: flex;
+    justify-content: center;
+}
+
+.subheader--ruler__ruler {
+    background-color: var(--dark-teal);
+    border-radius: 5px;
+    margin: 1rem;
+    height: 3px;
+    width: 10rem;
+}
