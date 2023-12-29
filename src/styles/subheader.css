@@ -37,3 +37,28 @@
     height: 2rem;
     box-shadow: 0px 5px 5px darkgray;
 }
+
+.subheader--circle__container {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.subheader--circle__shape {
+    background-color: var(--teal-green);
+    position: relative;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+
+}
+
+.subheader--circle__icon {
+    position: absolute;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
