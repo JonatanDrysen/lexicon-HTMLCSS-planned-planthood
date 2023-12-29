@@ -50,7 +50,7 @@
 }
 
 .hero--dig__container {
-    background-color: var(--teal-green);
+    background-color: var(--light-teal);
     grid-row: 2;
     display: flex;
     justify-content: center;
