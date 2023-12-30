@@ -1,0 +1,24 @@
+.teal--circle__container {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.teal--circle__shape {
+    background-color: var(--light-teal);
+    position: relative;
+    border-radius: 50%;
+    width: 14rem;
+    height: 14rem;
+
+}
+
+.teal--circle__icon {
+    position: absolute;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}

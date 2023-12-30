@@ -3,22 +3,6 @@
     flex-direction: column;
 }
 
-.subheader--text__container {
-    text-align: center; 
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-.subheader--text__header {
-    font-family: var(--font-open-sans);
-    font-weight: 700;
-}
-
-.subheader--text__text {
-    font-family: var(--font-open-sans);
-    font-weight: 400;
-}
-
 .subheader--ruler__container {
     display: flex;
     justify-content: center;
