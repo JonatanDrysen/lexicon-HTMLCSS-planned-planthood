@@ -12,3 +12,22 @@
 body {
     margin: 0;
 }
+
+.teal--button__container {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.teal--button__button {
+    font-family: var(--font-open-sans);
+    font-weight: 700;
+    background-color: var(--light-teal);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 6rem;
+    height: 2rem;
+    box-shadow: 0px 5px 5px darkgray;
+}
