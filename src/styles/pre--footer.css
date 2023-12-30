@@ -1,0 +1,5 @@
+.pre--footer__section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
