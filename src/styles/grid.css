@@ -1,0 +1,89 @@
+.grid--header__container {
+    display: flex;
+    justify-content: center;
+}
+
+.grid__header {
+    font-family: var(--font-open-sans);
+    font-weight: 600;
+}
+
+.grid__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    justify-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.grid__card {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    row-gap: 0.5rem;
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 5px 5px darkgray;
+}
+
+.grid--card--img__container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    max-height: 10rem;
+}
+
+.grid--card--img__img {
+    height: 100%;
+    width: 100%;
+}
+
+.grid--card--img__icon {
+    position: absolute;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.grid--card--content__container {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    grid-template-rows: repeat(2, max-content);
+    row-gap: 0.5rem;
+    align-items: center;
+    padding-bottom: 0.5rem;
+}
+
+.grid--card--content__title {
+    font-family: var(--font-lato);
+    font-weight: 600;
+    font-size: 0.8rem;
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-left: 0.5rem;
+}
+
+.grid--card--content__date {
+    font-family: var(--font-open-sans);
+    font-weight: 700;
+    font-size: 0.7rem;
+    justify-self: right;
+    padding-right: 0.5rem;
+}
+
+.grid--card--content__author {
+    font-family: var(--font-lato);
+    font-weight: 300;
+    font-size: 0.7rem;
+    padding-left: 0.5rem;
+}
+
+.grid--card--content__delete {
+    height: 1rem;
+    justify-self: right;
+    padding-right: 0.5rem;
+}
