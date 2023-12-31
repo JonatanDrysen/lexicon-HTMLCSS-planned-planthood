@@ -1,0 +1,82 @@
+.footer__section {
+    background-image: url(../../assets/imgs/footer.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 48rem;
+}
+
+.footer--logo__container {
+    flex: 1;
+}
+
+.footer--logo__logo {
+    transform: translate(40%, 30%);
+}
+
+.footer--contact__container {
+    font-family: var(--font-maven-pro);
+    background-color: rgba(0, 0, 0, 0.8);
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: end;
+    padding-bottom: 1rem;
+}
+
+.footer--contact__title {
+    color: white;
+    font-weight: 500;
+    font-size: 2.5rem;
+    position: absolute;
+    transform: translate(8rem, 8rem);
+    margin: 0;
+}
+
+.footer--contact--phone__container {
+    display: flex;
+    justify-self: start;
+    padding-left: 1rem;
+    white-space: nowrap;
+}
+
+.footer--contact--phone__container a {
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    text-decoration: none;
+    padding-left: 0.5rem;
+}
+
+.footer--contact--mail__container {
+    display: flex;
+    justify-self: end;
+    padding-right: 1rem;
+    white-space: nowrap;
+}
+
+.footer--contact--mail__container a {
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    text-decoration: none;
+    padding-right: 0.5rem;
+}
+
+.back--to--top__container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+}
+
+.back--to--top__container a {
+    font-family: var(--font-open-sans);
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+}
