@@ -1,0 +1,28 @@
+.planted--plants__section {
+    display: flex;
+    flex-direction: column;
+}
+
+.planted--plants--title__container {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.planted--plants--title__title {
+    font-family: var(--font-open-sans);
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.planted--plants--grid__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
