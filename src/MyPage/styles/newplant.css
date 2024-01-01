@@ -1,0 +1,40 @@
+.new--plant__section {
+    display: flex;
+    flex-direction: column;
+}
+
+.new--plant--title__container {
+    display: flex;
+    justify-content: center;
+}
+
+.new--plant--title__title {
+    font-family: var(--font-open-sans);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.new--plant__form {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.new--plant--form__item {
+    font-family: var(--font-open-sans);
+    font-weight: 400;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+.new--plant--form__label {
+    display: block;
+}
+
+.new--plant--form__input {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    height: 2.5rem;
+    width: 100%;
+    box-shadow: 0px 3px 5px lightgray;
+}
