@@ -1,0 +1,15 @@
+.footer__section {
+    background-color: var(--light-brown);
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.footer__container img {
+    justify-self: center;
+}
