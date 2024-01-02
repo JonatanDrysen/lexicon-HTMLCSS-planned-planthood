@@ -1,6 +1,6 @@
 .hero__section {
     background-image: url(../../../assets/imgs/mypage-hero.png);
-    background-size: auto;
+    background-size: 100%;
     background-position: auto;
     background-repeat: no-repeat;
     display: flex;
