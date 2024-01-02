@@ -9,7 +9,6 @@
     
     .desktop--navbar__container {
         display: flex;
-        justify-content: center;
         width: 100%;
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
@@ -18,13 +17,15 @@
     
     .desktop--navbar__list {
         display: flex;
+        justify-content: space-evenly;
         list-style: none;
+        width: 100%;
         margin: 0;
         padding: 0;
     }
     
     .desktop--navbar__item {
-        padding: 0 5rem;
+        display: flex;
     }
 
     .desktop--navbar__link {
