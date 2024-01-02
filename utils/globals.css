@@ -4,6 +4,7 @@
     --font-lato: "Lato", sans-serif;
     --font-inter: "Inter", sans-serif;
 
+    --cool-white: #FCF6FC;
     --light-brown: #9E6D52;
     --light-teal: #0A846E;
     --dark-teal: #055647;
@@ -11,4 +12,17 @@
 
 body {
     margin: 0;
+}
+
+@media screen and (min-width: 769px) {
+    body {
+        background-color: var(--cool-white);
+    }
+
+    .desktop__container {
+        background-color: white;
+        margin-left: 12rem;
+        margin-right: 12rem;
+        box-shadow: 0 0 3px darkgray;
+    }
 }

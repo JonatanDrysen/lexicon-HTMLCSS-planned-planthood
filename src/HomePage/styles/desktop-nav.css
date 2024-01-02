@@ -1,0 +1,37 @@
+.desktop--navbar__section {
+    display: none;
+}
+
+@media screen and (min-width: 769px) {
+    .desktop--navbar__section {
+        display: flex;
+    }
+    
+    .desktop--navbar__container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        box-shadow: 0 5px 8px lightgray;
+    }
+    
+    .desktop--navbar__list {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .desktop--navbar__item {
+        padding: 0 5rem;
+    }
+
+    .desktop--navbar__link {
+        color: var(--dark-teal);
+        font-family: var(--font-maven-pro);
+        font-weight: 500;
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+}
