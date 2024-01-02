@@ -64,19 +64,3 @@
     text-decoration: none;
     padding-right: 0.5rem;
 }
-
-.back--to--top__container {
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 4rem;
-    width: 100%;
-}
-
-.back--to--top__container a {
-    font-family: var(--font-open-sans);
-    color: black;
-    font-weight: 400;
-    text-decoration: none;
-}
