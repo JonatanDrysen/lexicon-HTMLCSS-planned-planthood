@@ -63,7 +63,12 @@
 }
 
 .card--content__delete {
-    height: 1rem;
+    background-image: url(../../assets/icons/red-trashcan.svg);
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
     justify-self: right;
-    padding-right: 0.5rem;
+    border: none;
+    text-indent: -9999px;
+    transform: translateX(-0.5rem);
 }
