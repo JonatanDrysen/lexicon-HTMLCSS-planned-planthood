@@ -22,8 +22,8 @@ body {
 
     .desktop__container {
         background-color: white;
-        margin-left: 12rem;
-        margin-right: 12rem;
-        box-shadow: 0 0 3px darkgray;
+        margin: 0 12rem;
+        margin-bottom: 5rem;
+        box-shadow: 0 0 6px darkgray;
     }
 }
