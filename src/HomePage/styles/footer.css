@@ -1,5 +1,5 @@
 .footer__section {
-    background-image: url(../../../assets/imgs/footer.png);
+    background-image: url(../../../assets/imgs/homepage-footer.png);
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -63,4 +63,55 @@
     font-size: 1rem;
     text-decoration: none;
     padding-right: 0.5rem;
+}
+
+@media screen and (min-width: 769px) {
+    .footer__section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 4rem;
+        background-size: cover;
+        height: 44rem;
+    }
+
+    .footer--logo__container {
+        grid-column: 2;
+    }
+
+    .footer--logo__logo {
+        height: 15rem;
+        transform: translate(60%, 90%);
+    }
+
+    .footer--contact__container {
+        grid-column: 1;
+        grid-row: 1;
+        padding-bottom: 2rem;
+    }
+
+    .footer--contact__title {
+        font-size: 4rem;
+        transform: translate(60%, 350%);
+    }
+
+    .footer--contact--phone__container a {
+        font-size: 1.5rem;
+    }
+
+    .footer--contact--phone__container img {
+        height: 2rem;
+    }
+
+    .footer--contact--mail__container a {
+        font-size: 1.5rem;
+    }
+
+    .footer--contact--mail__container img {
+        height: 2rem;
+    }
+
+    .back--to--top__container {
+        grid-row: 2;
+        grid-column: span 2;
+    }
 }
