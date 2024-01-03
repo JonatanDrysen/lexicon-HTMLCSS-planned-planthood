@@ -38,6 +38,7 @@
     
     .grid__container .card--img__container {
         max-height: 17rem;
+        min-height: 17rem;
     }
     
     .grid__container .card--content__container {

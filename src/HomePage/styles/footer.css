@@ -76,11 +76,14 @@
 
     .footer--logo__container {
         grid-column: 2;
+        display: grid;
     }
 
     .footer--logo__logo {
         height: 15rem;
-        transform: translate(60%, 90%);
+        justify-self: center;
+        align-self: center;
+        transform: translate(0, 0);
     }
 
     .footer--contact__container {
@@ -91,7 +94,9 @@
 
     .footer--contact__title {
         font-size: 4rem;
-        transform: translate(60%, 350%);
+        justify-self: center;
+        align-self: center;
+        transform: translate(0, 0);
     }
 
     .footer--contact--phone__container a {
