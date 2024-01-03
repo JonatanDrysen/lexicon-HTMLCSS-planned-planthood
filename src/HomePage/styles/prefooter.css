@@ -3,3 +3,58 @@
     flex-direction: column;
     margin-bottom: 4rem;
 }
+
+@media screen and (min-width: 769px) {
+    .pre--footer__section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        padding: 0 2rem;
+    }
+
+    .pre--footer--teal--circle__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-column: 2;
+        grid-row: span 3;
+    }
+
+    .pre--footer--teal--circle__container .teal--circle__shape {
+        width: 24rem;
+        height: 24rem;
+    }
+
+    .pre--footer--text--area__container {
+        display: flex;
+        align-items: end;
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .pre--footer--text--area__container .text--area__header {
+        text-align: left;
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .pre--footer--text--area__container .text--area__text {
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    .pre--footer--teal--button__container {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .pre--footer--teal--button__container .teal--button__container {
+        display: flex;
+        justify-content: start;
+    }
+
+    .pre--footer--teal--button__container .teal--button__button {
+        font-size: 1.25rem;
+        padding: 1rem 1.5rem;
+    }
+}
