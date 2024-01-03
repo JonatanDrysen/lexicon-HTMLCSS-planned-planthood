@@ -15,17 +15,21 @@
 }
 
 .card--img__img {
+    display: block;
     height: 100%;
     width: 100%;
 }
 
 .card--img__icon {
+    background-image: url(../../assets/icons/plant-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     position: absolute;
-    height: 50%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(0, 50%);
     z-index: 2;
+    height: 5rem;
+    width: 5rem;
 }
 
 .card--content__container {
