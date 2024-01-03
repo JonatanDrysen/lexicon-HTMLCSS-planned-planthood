@@ -118,5 +118,7 @@
     .back--to--top__container {
         grid-row: 2;
         grid-column: span 2;
+        font-size: 1.5rem;
+        padding: 1rem 0;
     }
 }
