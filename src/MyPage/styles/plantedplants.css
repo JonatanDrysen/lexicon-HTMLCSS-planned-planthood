@@ -26,3 +26,60 @@
     padding-right: 1rem;
     padding-bottom: 1rem;
 }
+
+@media screen and (min-width: 769px) {
+    .planted--plants--title__container {
+        padding-bottom: 2rem;
+    }
+
+    .planted--plants--title__title {
+        font-size: 2rem;
+    }
+
+    .planted--plants--grid__container {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2rem;
+        row-gap: 2.5rem;
+        margin: 0 2rem;
+        padding-bottom: 5rem;
+    }
+
+    .planted--plants--grid__container .card {
+        row-gap: 1rem;
+        max-width: 19rem;
+    }
+
+    .planted--plants--grid__container .card--img__container {
+        max-height: 17rem;
+        min-height: 50%;
+    }
+
+    .planted--plants--grid__container .card--content__container {
+        row-gap: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .planted--plants--grid__container .card--content__title {
+        font-size: 1.5rem;
+    }
+
+    .planted--plants--grid__container .card--content__date {
+        font-size: 1rem;
+    }
+
+    .planted--plants--grid__container .card--content__author {
+        font-size: 1rem;
+    }
+
+    .planted--plants--grid__container .card--content__delete {
+        font-family: var(--font-open-sans);
+        font-weight: 700;
+        font-size: 1rem;
+        text-indent: 0;
+        background-color: var(--light-red);
+        color: white;
+        border: none;
+        border-radius: 10px;
+        padding: 0.5rem 1rem;
+    }
+}
