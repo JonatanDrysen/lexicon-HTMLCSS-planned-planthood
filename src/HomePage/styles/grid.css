@@ -75,4 +75,13 @@
         height: 13rem;
         width: 13rem;
     }
+
+    .grid__section .teal--button__container {
+        padding: 3rem 0;
+    }
+
+    .grid__section .teal--button__button {
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
+    }
 }
