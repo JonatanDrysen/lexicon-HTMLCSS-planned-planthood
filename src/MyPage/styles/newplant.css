@@ -10,7 +10,7 @@
 
 .new--plant--title__title {
     font-family: var(--font-open-sans);
-    font-weight: 400;
+    font-weight: 40;
     font-size: 1.5rem;
 }
 
@@ -21,7 +21,7 @@
 
 .new--plant--form__item {
     font-family: var(--font-open-sans);
-    font-weight: 400;
+    font-weight: 40;
     font-size: 1rem;
     padding-bottom: 1rem;
 }
@@ -37,4 +37,45 @@
     height: 2.5rem;
     width: 100%;
     box-shadow: 0px 3px 5px lightgray;
+}
+
+@media screen and (min-width: 769px) {
+    .new--plant__section {
+        padding: 0 2rem;
+    }
+
+    .new--plant--title__container {
+        justify-content: start;
+        padding-top: 1rem;
+    }
+
+    .new--plant--title__title {
+        font-size: 2rem;
+    }
+
+    .new--plant__form {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto 1fr;
+        padding: 0;
+    }
+
+    .new--plant--form__label {
+        font-size: 1.25rem;
+        grid-row: 1;
+    }
+
+    .new--plant--form__input {
+        grid-row: 2;
+        width: 95%;
+    }
+
+    .new--plant__section .teal--button__container {
+        grid-row: 2;
+        grid-column: span 2;
+    }
+
+    .new--plant__section .teal--button__button {
+        padding: 1rem 2rem;
+    }
 }
